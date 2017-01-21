@@ -238,6 +238,6 @@ void rate_control(int rate) {
      * **/
     clock_t cur = clock();
     while(1){
-      if((float)(clock()-cur)>CLOCKS_PER_SEC/rate) break;
+      if((float)(clock()-cur)>CLOCKS_PER_SEC/rate) break; 
     }
 }
